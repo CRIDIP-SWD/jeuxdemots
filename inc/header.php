@@ -4,14 +4,13 @@
 <head>
     <!-- META SECTION -->
     <title><?= NOM_SITE; ?> - <?= nom_sector($nom_sector); ?></title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <!-- END META SECTION -->
 
-    <!-- CSS INCLUDE -->
-    <link rel="stylesheet" type="text/css" id="theme" href="<?= ROOT,CSS; ?>theme-default.css"/>
-    <!-- EOF CSS INCLUDE -->
+    <link rel="stylesheet" type="text/css" href="<?= ROOT,CSS; ?>revolution-slider/extralayers.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="<?= ROOT,CSS; ?>revolution-slider/settings.css" media="screen" />
+
+    <link rel="stylesheet" type="text/css" href="<?= ROOT,CSS; ?>styles.css" media="screen" />
 </head>
