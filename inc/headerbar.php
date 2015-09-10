@@ -23,7 +23,7 @@
     </li>
     <li>
         <a href="#">Jeux</a>
-        <ul>
+        <ul class="dropdown-menu">
             <li><a href="blog-grid.html">Mots Fléché</a></li>
             <li><a href="blog-post.html">Mots Croisée</a></li>
             <li><a href="">Sudoku</a></li>
